@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-image: url('https://bigpicture.ru/wp-content/uploads/2012/07/cats-32.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+header {
+    background-color: rgb(126, 44, 105);
+    color: white;
+    padding: 20px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
